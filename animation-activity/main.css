@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+body  {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: gainsboro;
+}
+
+.container  {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hamburger {
+  width: 100px;
+  height: 100px;
+  background: mediumvioletred;
+  color: ghostwhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.hamburger div {
+  background-color: rebeccapurple;
+  height: 10px;
+  width: 70%;
+  margin: auto;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: rebeccapurple;
+  text-shadow: 1px 1px 2px darkgrey;
+}
+a:hover {
+  color: ghostwhite;
+}
