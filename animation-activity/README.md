@@ -10,8 +10,7 @@
 
 Let's make a hamburger menu icon that changes to an x on hover
 
-![hamburger animation](./assets/css-hamburger-menu.gif
-  )
+![hamburger animation](./assets/css-hamburger-menu.gif)
 
 
 ## Make a plan
