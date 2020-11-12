@@ -16,10 +16,12 @@ img {
 }
 
 button {
+  border: none;
   padding: 1em;
   margin: .2em;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.5em;
+  transition-duration: 2s;
 }
 
 button:hover {
