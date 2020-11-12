@@ -19,6 +19,6 @@ So that you can slowly change the button background color to `cornflowerblue` an
 
 ### Super Bonus!
 
-Use the following resource and refactor (feel free to change the html and css, as needed) the code so that the caption title and text overlays the image like in the following:
+Use the following resource and refactor (feel free to change the html and css, as needed - but try to apply the solution to the code that is there, don't just copy paste the code in the demo) the code so that the caption title and text overlays the image like in the following:
 
 [resource]( https://www.matthinchliffe.dev/2013/12/16/smooth-text-overlays-with-css-transforms.html)
