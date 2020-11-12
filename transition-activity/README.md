@@ -10,14 +10,15 @@
 
 Add a transform rule to the `button` element in `activity.css`
 
-So that you can slowly change the button background color to `cornflowerblue` over 2 seconds when you hover your pointer over the button.
+So that you can slowly change the button background color to `cornflowerblue` and the text to `ghostwhite` over 2 seconds when you hover your pointer over the button.
+
+![button demo](./assets/button-transition.gif)
 
 ### Bonus
-
-When you hover over the button, it pushes the image credit link down causing an undesirable moving/bouncing. Update the CSS (you can work in main.css) to make it that hovering over the button has no effect on the other elements on the page
+- Add more styling to the button - whatever you want to make it look better
 
 ### Super Bonus!
 
-Use the following resource and refactor the code so that the caption title and text overlays the image like in the following:
+Use the following resource and refactor (feel free to change the html and css, as needed) the code so that the caption title and text overlays the image like in the following:
 
 [resource]( https://www.matthinchliffe.dev/2013/12/16/smooth-text-overlays-with-css-transforms.html)
