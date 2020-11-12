@@ -1,6 +1,5 @@
 # Transition Activity
 
-
 ## Getting Started
 
 - open `index.html` in your text editor and the browser
