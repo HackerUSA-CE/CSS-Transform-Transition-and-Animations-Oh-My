@@ -52,5 +52,4 @@ nav {
     margin: auto;}
   to {animation-play-state: running;
     transform: rotate(-50deg) translate(45px) ;
-    
-}
+  }}
