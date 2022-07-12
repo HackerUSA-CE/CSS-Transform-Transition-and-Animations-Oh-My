@@ -28,16 +28,29 @@ nav {
 }
 
 @keyframes top {
-  from {}
-  to {}
+  from {background-color: rebeccapurple;
+    height: 10px;
+    width: 70%;
+    margin: auto;}
+  to {animation-play-state: running;
+    transform: rotate(50deg) translate(45px);
+  }
 }
 
 @keyframes middle {
-  from {}
-  to {}
+  from {background-color: rebeccapurple;
+    height: 10px;
+    width: 70%;
+    margin: auto;}
+  to {background-color: mediumvioletred}
 }
 
 @keyframes bottom {
-  from {}
-  to {}
+  from {background-color: rebeccapurple;
+    height: 10px;
+    width: 70%;
+    margin: auto;}
+  to {animation-play-state: running;
+    transform: rotate(-50deg) translate(45px) ;
+    
 }
