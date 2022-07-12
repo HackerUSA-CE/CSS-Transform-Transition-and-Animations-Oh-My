@@ -10,6 +10,11 @@ main {
   margin: auto;
   display: flex;
   align-items: center;
+  
+}
+
+.wrapper {
+  transform: rotate(-20deg);
 }
 
 main > div {
