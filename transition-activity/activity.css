@@ -1,1 +1,60 @@
+button {
+ background-color: ghostwhite;
+}
+
+button:hover{
+ filter: none;
+ transition: 2s;
+ background-color: cornflowerblue;
+ color: ghostwhite;
+
+}
+
+.caption {
+  position: relative;
+  overflow: hidden;
+}
+
+.caption_media {
+  display:block;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.caption_overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  color: white;
+  transform: translateY(100%);
+  transition: .35s ease-out;
+}
+
+.caption:hover .caption_overlay {
+  transform: translateY(0);
+}
+
+.caption::before {
+  content:'';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  transition: background .35s ease-out;
+  background-color: rgb(93, 93, 193);
+}
+
+.caption:hover::before {
+  background: rgba(0, 0, 0, .5);
+}
+
+.caption:hover::before {
+  transform: translateZ(0);
+}
 
